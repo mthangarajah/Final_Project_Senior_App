@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Final_Project_Senior_App</string>
+    <string name="show_result">Show Result</string>
+    <string name="Hello">TextView</string>
+    <string name="hello">TextView</string>
+    <string name="thank">Thank you for your response! Your response has been recorded!</string>
+</resources>

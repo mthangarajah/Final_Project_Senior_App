@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".questions">
+
+    <Button
+        android:id="@+id/choice1"
+        android:layout_width="286dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="56dp"
+        android:text="Yes, Quite Well"
+        android:textSize="24sp"
+        app:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.607"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/choice2"
+        android:layout_width="282dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="36dp"
+        android:text="I slept alright"
+        android:textSize="24sp"
+        app:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/choice1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.611"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/choice3"
+        android:layout_width="281dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="36dp"
+        android:text="Could've slept more"
+        android:textSize="24sp"
+        app:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toTopOf="@+id/choice2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.575"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/choice4"
+        android:layout_width="277dp"
+        android:layout_height="90dp"
+        android:layout_marginStart="51dp"
+        android:layout_marginLeft="51dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginRight="46dp"
+        android:layout_marginBottom="33dp"
+        android:text="Did not sleep well"
+        android:textSize="24sp"
+        app:backgroundTint="@color/design_default_color_primary_variant"
+        app:layout_constraintBottom_toTopOf="@+id/choice3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.567"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="310dp"
+        android:layout_height="185dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginRight="72dp"
+        android:gravity="center"
+        android:text="How did you sleep last night?"
+        android:textColor="@color/black"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
